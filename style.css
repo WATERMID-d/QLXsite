@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+}
+
+#p1{
+    color: white;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 1s;
+}
+
+#p2{
+    color: white;
+    text-align: center;
+}
+
+#p3{
+    color: lightblue;
+}
+
+#p4{
+    color: white;
+}
+
+#p5{
+    color: white;
+}
+
+#p6{
+    color: white;
+    text-align: center;
+}
+
+#p7{
+    color: white;
+    text-align: center;
+    animation-name: slideUp;
+    animation-duration: 1s;
+}
+
+#p8{
+    color: lightgray;
+    text-align: center;
+}
+
+#p9{
+    color: white;
+    text-align: center;
+    animation-name: slideUp;
+    animation-duration: 2s;
+}
+
+#p10{
+    color: white;
+    text-align: center;
+}
+
+#img1{
+    background-position: center;
+    float: left;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(74, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: rgb(225, 205, 205);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(33, 17, 17);
+}
+
+.navbar li{
+    float: center;
+}
+
+@keyframes slideUp{
+    from{transform: translateY(100%)}
+}
+
+@keyframes slideLeft{
+    from{transform: translateX(50%)}
+}
